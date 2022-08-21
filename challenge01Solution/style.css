@@ -29,4 +29,7 @@ body {
   margin: 0 auto;
 
   padding: 2em;
+
+  /* removed fixed height since it was creating the problem in responsive layout. Now the height will get adjusted according to the content inside it.*/
+  /* height: 300px; */
 }
